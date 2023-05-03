@@ -1,0 +1,388 @@
+body {
+    background-image: url(../images/spider-web-network-radial-spider.jpeg);
+    background-size: contain;
+    /* background-repeat: no-repeat; */
+    background-attachment: fixed;
+    font-family: 'PT Sans', sans-serif;
+
+
+}
+
+
+main section {
+    background-color: aliceblue;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    /* margin-top: 6em;
+    margin-left: 17em;
+    margin-right: 17em;
+    padding: 2em;
+    padding-bottom: 0em; */
+    margin: 10%;
+    margin-top: 0%;
+    padding: 2%
+}
+
+main h1 {
+    /* margin: 0 auto; */
+    text-align: center;
+    padding: 15px;
+}
+
+img {
+    width: 100%;
+    /* padding-bottom: 2em; */
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .5);
+
+}
+
+#rankings,
+#reviews {
+    margin-bottom: 0px;
+    margin-right: 10%;
+    margin-left: 10%;
+    padding-top: 1.7em;
+}
+
+.actors h2 {
+    margin-top: 3em;
+}
+
+p {
+    margin-bottom: 3em;
+    margin-top: 0px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+.actors p {
+    margin-left: 1em;
+    margin-right: 1em;
+    /* margin-top: 15px; */
+    height: 100%;
+    padding: 1em;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .5);
+
+    
+}
+
+.actors img {
+    width: 70%;
+}
+
+.IMG_P {
+    display: flex;
+
+}
+
+.reviews{
+    padding-left: 10%;
+    padding-right: 10%;
+
+
+}
+
+
+
+/************************** typography *************************************/
+h1 {
+    color: rgb(201, 22, 22);
+    background-color: aliceblue;
+    position: relative;
+    z-index: 0;
+}
+
+#title {
+    /* margin-top: 2.49em; */
+    padding-top: .65em;
+    font-size: 80px;
+}
+
+li {
+    color: grey;
+}
+
+.num{
+    color: grey;
+    padding-right: 30px;
+}
+
+.number1 {
+    color: rgb(201, 22, 22);
+    font-size: 100px;
+}
+
+.secondandthird {
+    font-size: 40px;
+    color: rgb(87, 83, 83);
+}
+
+
+
+
+/************************** table *************************************/
+th {
+    text-align: left;
+    padding-right: 3em;
+    width: 50%;
+    font-size: 25px;
+}
+
+table img {
+    width: 100%;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .5);
+
+}
+
+table th {
+    border-bottom: 1px solid rgb(171, 171, 171);
+    /* padding-left: 4em; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/************************** NAV BAR top *************************************/
+
+
+.topnav {
+    margin-top: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(201, 22, 22);
+    display: flex;
+    flex-direction: row;
+    z-index: 1000;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .5);
+}
+
+.topnav a:hover {
+    color: rgb(177, 177, 177);
+}
+
+.topnav li {
+    font-size: larger;
+    margin: 1.5em;
+
+}
+
+.topnav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+/************************** NAV BAR narrow *************************************/
+
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 500,
+        'GRAD' 0,
+        'opsz' 48
+}
+
+.openbtn {
+    position: fixed;
+    left: 20px;
+    top: 10px;
+    color: rgb(201, 22, 22);
+    
+    font-family: 'PT Sans', sans-serif;
+    z-index: 1000;
+
+}
+
+.openbtn:hover {
+    color: rgb(85, 85, 85);
+}
+
+.menu-button {
+    font-size: 36px !important;
+    position: relative;
+    top: 6px;
+    left: -4px;
+}
+
+.menu-text {
+    font-size: 12px;
+    display: block;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+/* The side navigation menu */
+.all-over-bkg {
+    display: none;
+}
+
+.is-visible {
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    z-index: 9999;
+    display: block;
+}
+
+#mySidenav {
+    z-index: 10000;
+}
+
+.sidenav {
+    height: 100%;
+    /* 100% Full-height */
+    width: 0;
+    /* 0 width - change this with JavaScript */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Stay on top */
+    top: 0;
+    /* Stay at the top */
+    left: 0;
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    padding-top: 60px;
+    /* Place content 60px from the top */
+    transition: 0.5s;
+    /* 0.5 second transition effect to slide in the sidenav */
+    background-color: rgb(201, 22, 22)
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: grey;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+
+
+
+
+/*
+    MEDIA QUERIES
+*/
+/* Small devices (tablets, 768px and up) */
+
+/* nav *****************************************************************/
+@media screen and (max-width: 450px) {
+    .topnav {
+        display: none;
+    }
+
+
+
+
+}
+
+@media (max-width: 1350px) {
+    .topnav {
+        display: none;
+    }
+
+    #title {
+        margin-top: 0px;
+        font-size: 40px;
+
+    }
+
+    th {
+        font-size: 20px;
+    }
+
+    .IMG_P {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .actors img {
+        width: 100%;
+    }
+    .actors p {
+        margin: 0px;
+        margin-top: 15px;
+    }
+
+    .num{
+        color: grey;
+        padding-right: 5px;
+    }
+}
+
+
+@media (min-width: 992px) {
+
+    
+}
+
+@media (min-width: 992px) {
+
+    .openbtn,
+    .sidenav {
+        display: none;
+    }
+
+}
